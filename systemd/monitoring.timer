@@ -1,5 +1,5 @@
 [Unit]
-Description= Timer runs service (monitoring.service) every minute
+Description=Timer runs service (monitoring.service) every minute
 
 [Timer]
 OnCalendar=*-*-* *:*:00
