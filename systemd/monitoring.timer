@@ -1,0 +1,9 @@
+[Unit]
+Description= Timer runs service (monitoring.service) every minute
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Unit=monitoring.service
+
+[Install]
+WantedBy=timers.target

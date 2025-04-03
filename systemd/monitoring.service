@@ -1,0 +1,9 @@
+[Unit]
+Description= service for monitoring process (test)
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/monitoring.sh
+
+[Install]
+WantedBy=multi-user.target
